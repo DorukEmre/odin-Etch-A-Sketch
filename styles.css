@@ -1,0 +1,40 @@
+body {
+    background: seagreen;
+    color: seashell;
+}
+
+.bigbox {
+    display: flex;
+    flex-flow: row wrap;
+    height: 512px;
+    width: 512px;
+    background: darkcyan;
+    border: 1px solid black;
+}
+
+.square {
+    flex: 0 0;
+    background: darkslateblue;
+    border: 1px solid black;
+}
+
+.size {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+p {
+    min-width: 100px;
+    text-align: center;
+}
+
+.increase, .decrease {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 2px;
+}
+
+.button-content {
+    font-size: 2em;
+}
